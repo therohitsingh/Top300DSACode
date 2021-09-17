@@ -1,11 +1,11 @@
 n1 = int(input())
 a = []
 for i in range(n1):
-    a.append(input())
+    a.append(int(input()))
 n2 = int(input())
 b = []
 for j in range(n2):
-    b.append(input())
+    b.append(int(input()))
 
 h = [str(i) for i in a]
 res = int("".join(h))
